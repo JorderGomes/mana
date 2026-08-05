@@ -1,5 +1,6 @@
 package com.jorder.mana.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -15,6 +16,8 @@ public class User {
     private UUID id;
 
     private String name;
+
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
 
 }
