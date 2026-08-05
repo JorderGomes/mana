@@ -34,3 +34,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### test database ###
+/mana_db.mv.db
+/mana_db.trace.db
