@@ -14,6 +14,7 @@ public class ManaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ManaApplication.class, args);
+		System.out.println("Api is up!");
 	}
 
 }
